@@ -42068,24 +42068,43 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 92px;
+  min-height: 91px;
 }
 
 .u-header .u-menu-1 {
-  margin: 22px 0 22px auto;
+  margin: 6px 0 5px auto;
 }
 
 .u-header .u-nav-3 {
   font-size: 1.25rem;
 }
 @media (max-width: 1199px) {
+  .u-header .u-menu-1 {
+    width: auto;
+    margin-top: 16px;
+    margin-right: -16px;
+    margin-bottom: 13px;
+  }
+}
+@media (max-width: 991px) {
    .u-header {
     min-height: 92px;
   }
+
+  .u-header .u-menu-1 {
+    margin-right: -16px;
+  }
 }
 
+@media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 112px;
+  }
 
-
+  .u-header .u-menu-1 {
+    margin-bottom: 40px;
+  }
+}
  .u-footer {
   background-image: none;
 }
